@@ -1,0 +1,62 @@
+body {
+  font-family:'Libre Baskerville', serif;
+  background-color: #FFFFFF;
+  color: #000000;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.title {
+  position: relative;
+  margin-left: 7%;
+  margin-top: 50vh;
+  margin-bottom: 45vh;
+  color: #A10217;
+  font-style: bold;
+  font-size: 150px;
+  line-height: 0.715em;
+  white-space: pre-line;
+}
+
+.content{
+  position: relative;
+  margin-left: 7%;
+  margin-right: 25%;
+  color: #000000;
+}
+
+.content.poem{
+  margin-top: 75vh;
+  margin-bottom: 75vh;
+}
+
+#lighght{
+  text-align: center;
+}
+
+.spacer{
+  height: 10vh;
+}
+
+
+background{
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:-1;
+  width: 100%;
+  height: 100%;
+  margin : 0px;
+  padding : 0px;
+  border : 0px;
+  background-color : transparent;
+}
+
+#crickets {
+  text-align: right;
+  position: relative;
+  right: 12%;
+  top: -2.8em;
+  white-space: pre-line;
+}
