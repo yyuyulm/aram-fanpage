@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+.spacer{
+  height: 10vh;
+}
+
 .title {
   position: relative;
   margin-left: 7%;
@@ -29,14 +33,56 @@ body {
 .content.poem{
   margin-top: 75vh;
   margin-bottom: 75vh;
+  text-align: center;
 }
 
 #lighght{
   text-align: center;
 }
 
-.spacer{
-  height: 10vh;
+#mmm{
+  height:30%;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#oyster{
+  padding-left: 40%;
+  padding-right: 5%;
+  text-align: left;
+  line-height: 1.4em;
+  white-space: pre-line;
+}
+
+#street-title{
+  padding-left: 15%;
+  padding-right: 25%;
+  text-align: left;
+  white-space: pre-line;
+}
+
+#street-body{
+  padding-left: 35%;
+  padding-right: 0;
+  text-align: left;
+  line-height: 1.4em;
+  white-space: pre-line;
+}
+
+#night{
+  text-overflow: clip;
+  width: 100vw;
+  text-align: center;
+  left: -4ch;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 2ch;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 75vh;
+  margin-bottom: 50vh;
 }
 
 
